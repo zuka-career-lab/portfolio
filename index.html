@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="宮本和徳が関わった研修・ワークショップ、地域の事業、学生時代の取り組みの事例集。">
+<meta name="color-scheme" content="light dark">
+<title>宮本和徳 | 関わった事例</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@900&family=Noto+Sans+JP:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap">
+<style>
+/* 事例を4つのまとまりで縦に並べる。ドット表示は名前と番号だけ、赤は現在地の印だけ */
+:root{
+  --bg:#f6f6f4; --card:#ffffff; --fg:#111111; --sub:#5f6166; --line:#dcdcd7; --dot:#d9d9d4; --chip:#efefec; --red:#d71921;
+  --jp:"Noto Sans JP","Hiragino Sans","Yu Gothic",sans-serif;
+  --dotf:"Doto","Space Mono",ui-monospace,monospace;
+  --mono:"Space Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0f0f10; --card:#18181a; --fg:#ececea; --sub:#a0a2a7; --line:#2c2c30; --dot:#232326; --chip:#232326; --red:#ff4d4d;
+  color-scheme:dark;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background-color:var(--bg);color:var(--fg);font-family:var(--jp);font-size:16px;line-height:1.85;letter-spacing:.02em;
+  background-image:radial-gradient(var(--dot) 1.1px,transparent 1.1px);background-size:18px 18px}
+h1,h2,h3,p,ul,ol,dl,dd{margin:0}
+h1,h2,h3{word-break:auto-phrase;text-wrap:balance;line-height:1.5}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--red)}
+a:focus-visible{outline:2px solid var(--red);outline-offset:3px;border-radius:2px}
+.wrap{max-width:820px;margin:0 auto;padding-block:40px 72px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.m{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--sub)}
+
+.top{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.name-en{font-family:var(--dotf);font-weight:900;font-size:clamp(40px,8vw,72px);line-height:.95;letter-spacing:-.01em;margin-top:44px}
+h1{font-size:clamp(24px,4vw,32px);font-weight:700;margin-top:20px}
+h1 small{display:block;font-size:15px;font-weight:500;color:var(--sub);letter-spacing:.06em;margin-bottom:4px}
+.intro{margin-top:20px}
+
+.career{margin-top:36px}
+.career h2{font-size:15px;font-weight:700;letter-spacing:.06em;margin-bottom:10px}
+.career table{width:100%;border-collapse:collapse;background:var(--card);border-radius:8px;overflow:hidden;font-size:14px;line-height:1.7}
+.career th{font-family:var(--mono);font-size:11px;font-weight:400;letter-spacing:.08em;color:var(--sub);text-align:left;padding:10px 14px;border-bottom:1px solid var(--line)}
+.career td{padding:10px 14px;vertical-align:top;border-bottom:1px solid var(--line)}
+.career tr:last-child td{border-bottom:0}
+.career td:first-child{font-family:var(--mono);font-size:13px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.career td:nth-child(2){font-weight:500}
+.career td:nth-child(3){color:var(--sub)}
+.career .grp td{background:var(--chip);font-family:var(--jp);font-size:12px;font-weight:700;letter-spacing:.06em;padding:6px 14px;color:var(--fg);white-space:normal}
+.career table{table-layout:fixed}
+.career col.c1{width:6.5em}
+.career col.c2{width:15em}
+.career td{word-break:auto-phrase}
+.toc{margin-top:32px;list-style:none;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.toc a{display:grid;grid-template-columns:2.4em minmax(0,1fr);gap:8px;align-items:baseline;text-decoration:none;background:var(--card);border-radius:8px;padding:12px 14px;font-size:14px;line-height:1.5;height:100%}
+.toc a span{font-family:var(--dotf);font-weight:900;font-size:18px}
+
+section{margin-top:72px;scroll-margin-top:24px}
+.sec-head{display:flex;align-items:baseline;gap:14px;padding-bottom:12px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.sec-head .no{font-family:var(--dotf);font-weight:900;font-size:30px;line-height:1}
+.sec-head h2{font-size:20px;font-weight:700}
+
+.case{background:var(--card);border-radius:8px;padding:22px 24px;margin-top:14px}
+.case h3{font-size:18px}
+.case h3 .client{display:block;font-size:13px;font-weight:500;color:var(--sub);letter-spacing:.04em}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chips span{font-size:12px;background:var(--chip);border-radius:4px;padding:2px 8px;line-height:1.7}
+.chips .now{background:var(--red);color:#fff}
+.case dl{margin-top:14px;display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:10px 16px}
+.case dt{font-family:var(--mono);font-size:11px;letter-spacing:.06em;color:var(--sub);padding-top:5px}
+.case dd{font-size:15px}
+.case ul{padding-left:1.2em}
+.case li+li{margin-top:4px}
+.src{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);font-size:13px;color:var(--sub)}
+.src a{word-break:break-all}
+.n{font-family:var(--mono);font-weight:700;font-variant-numeric:tabular-nums}
+
+footer{margin-top:88px;padding-top:16px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+
+@media (max-width:560px){
+  .career thead{display:none}
+  .career table,.career tbody,.career tr,.career td{display:block;width:100%}
+  .career tr{padding:10px 14px;border-bottom:1px solid var(--line)}
+  .career tr:last-child{border-bottom:0}
+  .career td{padding:0;border:0}
+  .career table{table-layout:auto}
+  .career colgroup{display:none}
+  .career .grp{padding:0}
+  .career .grp td{padding:6px 14px}
+  .toc{grid-template-columns:minmax(0,1fr)}
+  .case{padding:20px}
+  .case dl{grid-template-columns:minmax(0,1fr);gap:2px}
+  .case dt{padding-top:10px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="top"><span class="m">Case file ／ Test version</span><span class="m">Updated 2026.11</span></div>
+
+<div class="name-en" aria-hidden="true">MIYAMOTO<br>KAZUNORI</div>
+<h1><small>宮本和徳</small>関わった事例</h1>
+
+<p class="intro">ミテモ株式会社（インソースグループ）で研修の法人営業をしてきた宮本和徳です。研修そのものだけでなく、受講者の周り（上司や職場、組織全体、地域）にも手を広げようとしてきた事例をまとめました。ミテモの事例での私の立場は営業担当で、お客様の課題を伺い、企画をまとめ、講師やファシリテーターと当日までの準備を進める役割です。</p>
+
+<div class="career">
+  <h2>経歴のサマリー</h2>
+  <table>
+    <colgroup><col class="c1"><col class="c2"><col></colgroup>
+    <thead><tr><th scope="col">開始時期</th><th scope="col">役割</th><th scope="col">補足</th></tr></thead>
+    <tbody>
+      <tr class="grp"><td colspan="3">学生時代（名城大学 農学部 生物資源学科、2019年4月〜2023年3月）</td></tr>
+      <tr><td>2020.07</td><td>トリイ株式会社 長期インターン</td><td>染色の自由研究キットなど2商品の企画・開発・販売</td></tr>
+      <tr><td>2020</td><td>リーダーシップ・キャラバン 参加者</td><td>参加者として出場して優勝。翌年は学生サポーター、その後は学生運営</td></tr>
+      <tr><td>2021.09</td><td>ミテモ株式会社 長期インターン</td><td>地域共創事業。八丈島の体験プログラムを企画から引き継ぎまで担当</td></tr>
+      <tr><td>2021.10</td><td>株式会社イノベスト 長期インターン</td><td>神奈川大学のリーダーシップ科目（120名・全15回）の運営</td></tr>
+      <tr><td>在学中</td><td>起業体験プログラムのメンター</td><td>高校生向け（名古屋市、宮崎県）</td></tr>
+      <tr class="grp"><td colspan="3">ミテモ株式会社（インソースグループ）</td></tr>
+      <tr><td>2023.04</td><td>入社、研修の運営</td><td>研修18件の事前準備、講師との打ち合わせ、当日の運営、アンケートの分析と報告</td></tr>
+      <tr><td>2023.10</td><td>法人営業</td><td>社員研修の企画・提案から当日の運営まで</td></tr>
+      <tr><td>2025.10</td><td>プロダクトマネージャー</td><td>エンゲージメント領域のチームリーダー。研修商品の企画と、3名のチームのとりまとめ</td></tr>
+      <tr><td>2026.10</td><td>地域共創事業</td><td>自治体が主催する人財育成・地域活性化の事業に関わる（現在）</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<ol class="toc" aria-label="目次">
+  <li><a href="#s1"><span aria-hidden="true">01</span>受講者の周りまで含めて設計した事例</a></li>
+  <li><a href="#s2"><span aria-hidden="true">02</span>学びが職場で生きるかを測る取り組み</a></li>
+  <li><a href="#s3"><span aria-hidden="true">03</span>地域と事業に関わった事例</a></li>
+  <li><a href="#s4"><span aria-hidden="true">04</span>学びの場をつくる側に回った原点</a></li>
+</ol>
+
+<section id="s1" aria-labelledby="h1s">
+  <div class="sec-head"><span class="no" aria-hidden="true">01</span><h2 id="h1s">受講者の周りまで含めて設計した事例</h2></div>
+
+  <article class="case">
+    <h3><span class="client">イビデン株式会社</span>上司・本人・部下の3階層合同のキャリア開発ワークショップ</h3>
+    <div class="chips"><span>営業担当</span><span>2023年10月から継続</span><span>計44名</span></div>
+    <dl>
+      <dt>内容</dt><dd>初めてマネジメントを担う社員と、その上司・部下の計44名が、同じ場でキャリアと組織のあり方を考えるワークショップ。本人がキャリアを見つめ直しても、職場の関係性が変わらなければ実践につながらない、という課題から、3階層を合同にしました。参加者が納得して臨めるよう、実施の意図を事前に伝える「文脈づくり」も行いました。</dd>
+      <dt>私の立場</dt><dd>営業担当。法人営業に移った2023年10月から、継続して担当しています。</dd>
+    </dl>
+    <p class="src">公開記事：<a href="https://www.mitemo.co.jp/case/workshop/career-autonomy/7996/" target="_blank" rel="noopener">ミテモ「キャリア研修は、本人だけのものじゃない。」（2026年10月2日）</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">日本ステリ株式会社</span>中堅社員218名のビジョンづくりワークショップ</h3>
+    <div class="chips"><span>営業担当</span><span>2025年</span><span>218名・全10回</span></div>
+    <dl>
+      <dt>内容</dt><dd>エンゲージメントサーベイの結果や、4年目以降の研修の空白を背景に、中堅社員218名が約30名ずつ全10回で、会社と自分の役割、未来を描くワークショップ。「特別な研修」ではなく「現場の延長線」として機能するよう設計し、各回のアンケートをもとに内容を見直し続けました。</dd>
+      <dt>私の立場</dt><dd>営業担当。お客様の現状と課題を何度も伺い、プログラムとファシリテーターを組み立てました。</dd>
+    </dl>
+    <p class="src">公開記事：<a href="https://www.mitemo.co.jp/case/dynamics-design/purpose-driven-management/purpose-and-philosophy-development/5776/" target="_blank" rel="noopener">ミテモ「組織のビジョンをつくるワークショップ研修事例｜日本ステリ株式会社」（2026年4月17日）</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">株式会社キタセキ</span>内定者と新人の合同チームビルディング研修</h3>
+    <div class="chips"><span>営業担当</span><span>2025年</span><span>計18名</span></div>
+    <dl>
+      <dt>内容</dt><dd>内定者・内々定者と入社1年目の社員、計18名の合同研修。「辞退防止」「早期離職の回避」という課題の奥にある人と人とのつながりに着目し、若手社員が「迎える側」の意識を持つ構成にしました。入社の前と後をつなぐ取り組みです。</dd>
+      <dt>私の立場</dt><dd>営業担当。</dd>
+    </dl>
+    <p class="src">公開記事：<a href="https://www.mitemo.co.jp/case/workshop/organizational-strengthening/pre-hire-follow-up/5774/" target="_blank" rel="noopener">ミテモ「内定者・新人合同チームビルディング研修事例｜株式会社キタセキ」（2026年4月17日）</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">顧客名は非公開</span>単発の研修のご依頼を、複数回のプログラムに組み直した事例</h3>
+    <div class="chips"><span>営業担当</span><span>提案から実施まで</span></div>
+    <dl>
+      <dt>内容</dt><dd>単発の研修のご依頼に対し、背景にある課題を伺ったうえで、複数回のプログラムとして提案しました。一部の回をお客様の社内講師が担う形にし、支援の終了後もお客様自身で育成を続けられるようにしました。</dd>
+      <dt>私の立場</dt><dd>営業担当。提案から実施まで受け持ちました。</dd>
+      <dt>進め方</dt><dd>初めてのお客様には、できる限り訪問して職場の様子を伺うようにしています（訪問件数は前期の<span class="n">14</span>件から<span class="n">58</span>件に）。</dd>
+    </dl>
+  </article>
+</section>
+
+<section id="s2" aria-labelledby="h2s">
+  <div class="sec-head"><span class="no" aria-hidden="true">02</span><h2 id="h2s">学びが職場で生きるかを測る取り組み（社内）</h2></div>
+
+  <article class="case">
+    <h3>研修の効果測定の方法を策定する社内チーム</h3>
+    <dl>
+      <dt>内容</dt><dd>研修後のアンケートを、満足度や学んだことだけでなく、受講者が学びを職場でどれだけ生かせそうかを測るものとして策定しました。結果をお客様に報告しています。</dd>
+    </dl>
+  </article>
+
+  <article class="case">
+    <h3>社内の読書会</h3>
+    <dl>
+      <dt>内容</dt><dd>中原淳ほか『研修開発入門「研修評価」の教科書』の読書会を同僚と共催しました（全2回）。</dd>
+      <dt>応用</dt><dd>ファシリテーションのコツを研修に入れてほしいというご依頼では、詳しくは『問いのデザイン』で読書会を開いていただくようお伝えしたうえで、問いかけの基本やよくある失敗のパターンをまとめて研修に入れました。</dd>
+    </dl>
+  </article>
+</section>
+
+<section id="s3" aria-labelledby="h3s">
+  <div class="sec-head"><span class="no" aria-hidden="true">03</span><h2 id="h3s">地域と事業に関わった事例</h2></div>
+
+  <article class="case">
+    <h3><span class="client">東京都・八丈島</span>黄八丈の染色と機織りを親子で体験するプログラム</h3>
+    <div class="chips"><span>ミテモの長期インターン</span><span>2021年9月〜2023年3月</span></div>
+    <dl>
+      <dt>内容</dt><dd>自宅に届く染色キットで草木の糸を染める事前体験と、島で職人から染色を学び、その糸で黄八丈を織る現地体験を組み合わせたプログラム。体験のあとに、なぜその色や模様になったかを振り返ります。</dd>
+      <dt>私の立場</dt><dd>現地の調査と関係づくりから始め、企画、資料作成、登壇、eラーニング化、マニュアル化まで担当しました。私が離れたあとも、プログラムは続いています。</dd>
+    </dl>
+    <p class="src">公開記事：<a href="https://iko-yo.net/facilities/175258/news/88836" target="_blank" rel="noopener">いこーよ「離島・八丈島で黄八丈の染色&amp;織り体験！」（2023年8月30日）</a></p>
+  </article>
+
+  <article class="case">
+    <h3>自治体の人財育成・地域活性化の事業</h3>
+    <div class="chips"><span class="now">現在</span><span>2026年10月から</span></div>
+    <dl>
+      <dt>内容</dt><dd>2026年10月に地域共創事業に移り、自治体が主催する人財育成・地域活性化の事業に関わっています。主な事業は次の3つです。
+        <ul>
+          <li>和歌山県：地域課題に取り組む企業の成長支援（経営者向けの学びの場と交流会）</li>
+          <li>名古屋市：学生による社会課題解決プログラム</li>
+          <li>茨城県：農村活性化プロデューサー育成講座（約6か月）</li>
+        </ul>
+      </dd>
+    </dl>
+  </article>
+</section>
+
+<section id="s4" aria-labelledby="h4s">
+  <div class="sec-head"><span class="no" aria-hidden="true">04</span><h2 id="h4s">学びの場をつくる側に回った原点（学生時代）</h2></div>
+
+  <article class="case">
+    <h3><span class="client">早稲田大学・イノベスト共催</span>リーダーシップ・キャラバン</h3>
+    <div class="chips"><span>参加者 → 学生サポーター → 学生運営</span></div>
+    <dl>
+      <dt>内容</dt><dd>2020年に参加者として出場して優勝し、翌年は学生サポーター、その後は学生運営として、同じ場に立場を変えながら関わりました。</dd>
+    </dl>
+    <p class="src">公開情報：<a href="https://www.innovst.com/caravan" target="_blank" rel="noopener">イノベスト「リーダーシップ・キャラバン」</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">神奈川大学</span>リーダーシップ科目の運営</h3>
+    <div class="chips"><span>イノベストの長期インターン</span><span>受講者120名・全15回</span></div>
+    <dl>
+      <dt>内容</dt><dd>PBL形式の授業（受講者120名、全15回）の運営を毎回担当しました。SlackとGoogle Apps Scriptで出席や学習状況の集計を自動化し、大学に報告しました。</dd>
+    </dl>
+    <p class="src">関連記事（この授業での金融教育の実施を伝えるもので、私の名前は出ていません）：<a href="https://prtimes.jp/main/html/rd/p/000000035.000020989.html" target="_blank" rel="noopener">auフィナンシャルサービス「神奈川大学経営学部での金融教育の実施について」</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">名古屋市・宮崎県</span>高校生向け起業体験プログラムのメンター</h3>
+    <div class="chips"><span>大学在学中</span></div>
+    <dl>
+      <dt>内容</dt><dd>名古屋市「スタートアップ・ユースキャンプ」、宮崎県「みやざきビジネスチャレンジクラブ」でメンターを務めました。</dd>
+    </dl>
+    <p class="src">公開情報：<a href="https://www.mitemo.co.jp/event/localproduce-cue/innovation/entrepreneurship-education/2635/" target="_blank" rel="noopener">ミテモのセミナー告知（登壇者として掲載）</a></p>
+  </article>
+
+  <article class="case">
+    <h3><span class="client">トリイ株式会社</span>染色の自由研究キットの企画・開発・販売</h3>
+    <div class="chips"><span>長期インターン</span><span>2020年7月〜2022年3月</span></div>
+    <dl>
+      <dt>内容</dt><dd>「子どもの本当の目的は宿題を終わらせること」という目線から企画し、説明書を解説する動画も制作しました。</dd>
+    </dl>
+    <p class="src">公開記事：<a href="https://ameblo.jp/dyestuff1948/entry-12687336440.html" target="_blank" rel="noopener">セカせん「爆速で終わる自由研究キット ~説明動画~」（2021年7月19日）</a></p>
+  </article>
+</section>
+
+<footer>
+  <span class="m">© 2026 Miyamoto Kazunori</span>
+  <span class="m">Last updated 2026.11.01</span>
+</footer>
+
+</div>
+</body>
+</html>
