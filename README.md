@@ -5,3 +5,4 @@
 - 現在の版:MI version
 - ページ本体:`index.html`(1枚で完結。書体だけGoogle Fontsから読み込みます)
 - 検索エンジンには載せない設定にしています(`noindex, nofollow`)
+- `portfolioNI/index.html`:NI version(https://zuka-career-lab.github.io/portfolio/portfolioNI/)
